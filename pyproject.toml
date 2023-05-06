@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "book-analysis"
+version = "0.1.0"
+description = ""
+authors = ["Łukasz Kuk <lukasz010420@gmail.com>"]
+readme = "README.md"
+packages = [{include = "book_analysis"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
